@@ -1,0 +1,1 @@
+![Windows 7 Screenshot](src/win7.gif)
