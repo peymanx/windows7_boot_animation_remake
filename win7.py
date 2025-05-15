@@ -4,7 +4,7 @@ import math
 # مقداردهی اولیه
 #"color flames" animation.
 pygame.init()
-WIDTH, HEIGHT = 640, 480
+WIDTH, HEIGHT = 800, 500
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 clock = pygame.time.Clock()
 
@@ -20,12 +20,12 @@ final_size = 100  # اندازه نهایی برای لوگو ویندوز
 
 # تنظیمات فونت
 font = pygame.font.SysFont("Arial", 26)  # فونت کمی ریزتر
-small_font = pygame.font.SysFont("Arial", 12)  # فونت ریزتر
+small_font = pygame.font.SysFont("Arial", 14)  # فونت ریزتر
 pygame.display.set_caption("ویندوز 7 - انیمیشن لوگو")
 
 while running:
     screen.fill((0, 0, 0))
-    dt = clock.tick(60) / 1000.0  # بر حسب ثانیه
+    dt = clock.tick(60) / 1300.0  # بر حسب ثانیه
     time += dt
 
     for event in pygame.event.get():
