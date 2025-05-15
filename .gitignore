@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+venv/
+ENV/
+env/
+*.egg-info/
+*.egg
+
+# Pygame-specific
+*.log
+
+# VS Code
+.vscode/
+
+# OS-specific
+.DS_Store
+Thumbs.db
